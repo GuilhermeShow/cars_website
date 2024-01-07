@@ -1,10 +1,9 @@
-import { HeaderCidade, HeaderCidadeModal, HeaderContainer, HeaderImagem, HeaderLogo, HeaderMenu, HeaderMenuLinks } from "./Header"
+import { HeaderContainer, HeaderImagem, HeaderLogo, HeaderMenu, HeaderMenuLinks } from "./Header"
 import logo from "../../assets/logo.png"
 import { GiHamburgerMenu } from "react-icons/gi"
-import { SiGooglemaps } from "react-icons/si"
 import { Link } from "react-router-dom"
-import style from "./header.module.css"
-import { useState } from "react"
+import style from "./Header.module.css"
+
 
 export const Header = () => {
 
