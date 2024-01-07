@@ -8,20 +8,11 @@ import { useState } from "react"
 
 export const Header = () => {
 
-    const [menuOpen, setMenuOpen] = useState(false);
-    const [modal, setModal] = useState(false);
-
-    function munuHumburguer() {
-        setMenuOpen(!menuOpen)
-    }
-
-    function modalCidade() {
-        setModal(!modal)
-    }
+    
 
     return (
         <HeaderContainer>
-            <HeaderMenu onClick={munuHumburguer}>
+            <HeaderMenu>
                 <GiHamburgerMenu size={28} color="#fff"/>
             </HeaderMenu>
             {menuOpen &&  <HeaderMenuLinks>
